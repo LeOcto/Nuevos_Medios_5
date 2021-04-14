@@ -13,7 +13,6 @@ Papa.parse("https://raw.githubusercontent.com/LeOcto/Nuevos_Medios_5/main/indice
         // necesitamos solo una parte de toda la respuesta
         var datos = respuesta.data;
         // para eliminar una fila de sobra al final, borrar el doble slash en la siguiente línea
-        // datos.pop();
 
         if (document.body.classList.contains("portada")) {
             datos.forEach(function (dato, i) {
